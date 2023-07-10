@@ -65,3 +65,9 @@ Process ,Waiting_time ,TurnA_time
 3		6		10
 Average waiting time is : 3.333333
 Average turn around time is : 7.333333
+
+//GANNT CHART==>
+Process 1: |-----P1-----|
+Process 2:        |-----P2-----|
+Process 3:              |-----P3-----|
+
