@@ -51,3 +51,21 @@ int main()
     return 0;
 }
 
+INPUT==>>
+
+Enter the number of processes:
+4
+Enter the arrival time, burst time, and priority of the process:
+AT BT PT
+0 6 3
+2 4 1
+4 9 2
+6 2 4
+OUTPUT==>>
+ID      WT      TAT
+1       0       6
+2       9       11
+3       7       16
+4       2       7
+Avg waiting time of the processes is 4.500000
+Avg turn around time of the processes is 10.000000
