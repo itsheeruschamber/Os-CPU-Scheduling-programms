@@ -48,3 +48,20 @@ int main()
     printf("Average turn around time is : %f\n",Avg_TT);
     return 0;
 } 
+
+//OUTPUT==>>
+
+/tmp/E9RRWvcMld.o
+Enter number of the process
+3
+Enter Arrival time and Burst time of the process
+AT	BT
+0 5
+1 3
+2 4
+Process ,Waiting_time ,TurnA_time
+1		0		5
+2		4		7
+3		6		10
+Average waiting time is : 3.333333
+Average turn around time is : 7.333333
